@@ -36,3 +36,29 @@ h1 {
     transform: translateY(-100%);
     font-size: 1.25em;
 }
+
+/* Desktop */
+@media (min-width: 992px) {
+    .menu-item {
+        width: 32%;
+        float: left;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-item {
+        width: 48%;
+    }
+
+    #sushi {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .menu-item {
+        width: 100%;
+    }
+}
