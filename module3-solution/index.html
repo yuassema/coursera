@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -16,79 +15,50 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: gray; border: 2px solid black;">
-            <a class="navbar-brand" href="#">FOOD</a>
-            <button class="navbar-toggler" style="border: black 2px solid;" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">FOOD, LLC</a>
+            <button class="navbar-toggler" style="border: black 2px solid;" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="nav navbar-nav" id="nav-text">
-                    <a class="nav-item nav-link active" href="#">Chicken<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#"> <span class="hidden-md-up">Beef</span></a>
+            <div class="collapse navbar-collapse justify-content-end d-lg-none" id="navbarNavAltMarkup">
+                <div class="nav navbar-nav w-100 text-center" style="background-color: #f8f9fa;">
+                    <a class="nav-item nav-link" href="#">Chicken</a>
+                    <a class="nav-item nav-link" href="#">Beef</a>
                     <a class="nav-item nav-link" href="#">Sushi</a>
                 </div>
             </div>
         </nav>
     </header>
 
-    <h1 class="heading-title text-center">Our Menu</h1>
+    <h1 class="text-center">Our Menu</h1>
 
-    <div class="box">
-        <div class="container item1">
-            <section>
-                <div id="chicken">
-                    <p>Chicken</p>
-                </div>
-                <p>Chickens are gregarious birds and live together in flocks. They have a communal approach to the
-                    incubation of eggs and raising of young. Individual chickens in a flock will dominate others,
-                    establishing a "pecking order", with dominant individuals having priority for food access and
-                    nesting locations. Removing hens or roosters from a flock causes a temporary disruption to this
-                    social order until a new pecking order is established. Adding hens, especially younger birds, to an
-                    existing flock can lead to fighting and injury.[19] When a rooster finds food, he may call other
-                    chickens to eat first. He does this by clucking in a high pitch as well as picking up and dropping
-                    the food. This behavior may also be observed in mother hens to call their chicks and encourage them
-                    to eat.</p>
-            </section>
+    <div class="container mt-4" style="background-color: #e9ecef; height: 1000px;">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <section style="background-color: gray; padding: 10px; height: 100%;">
+                    <h3 id="chicken" style="background-color: #d9534f; color: white; padding: 10px; text-align: center;">Chicken</h3>
+                    <p>Chickens are gregarious birds and live together in flocks. They have a communal approach to the
+                        incubation of eggs and raising of young. Individual chickens in a flock will dominate others...</p>
+                </section>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <section style="background-color: gray; padding: 10px; height: 100%;">
+                    <h3 id="beef" style="background-color: #c9302c; color: white; padding: 10px; text-align: center;">Beef</h3>
+                    <p>Beef is the culinary name for meat from cattle. In prehistoric times, humans hunted aurochs and
+                        later domesticated them...</p>
+                </section>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <section style="background-color: gray; padding: 10px; height: 100%;">
+                    <h3 id="sushi" style="background-color: #f0ad4e; color: white; padding: 10px; text-align: center;">Sushi</h3>
+                    <p>Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt,
+                        accompanying a variety of ingredients...</p>
+                </section>
+            </div>
         </div>
-
-        <div class="container item2">
-            <section>
-                <div id="beef">
-                    <p>Beef</p>
-                </div>
-                <p>Chickens are gregarious birds and live together in flocks. They have a communal approach to the
-                    incubation of eggs and raising of young. Individual chickens in a flock will dominate others,
-                    establishing a "pecking order", with dominant individuals having priority for food access and
-                    nesting locations. Removing hens or roosters from a flock causes a temporary disruption to this
-                    social order until a new pecking order is established. Adding hens, especially younger birds, to an
-                    existing flock can lead to fighting and injury.[19] When a rooster finds food, he may call other
-                    chickens to eat first. He does this by clucking in a high pitch as well as picking up and dropping
-                    the food. This behavior may also be observed in mother hens to call their chicks and encourage them
-                    to eat.</p>
-            </section>
-        </div>
-
-        <div class="container item3">
-            <section>
-                <div id="sushi">
-                    <p>Sushi</p>
-                </div>
-                <p>Chickens are gregarious birds and live together in flocks. They have a communal approach to the
-                    incubation of eggs and raising of young. Individual chickens in a flock will dominate others,
-                    establishing a "pecking order", with dominant individuals having priority for food access and
-                    nesting locations. Removing hens or roosters from a flock causes a temporary disruption to this
-                    social order until a new pecking order is established. Adding hens, especially younger birds, to an
-                    existing flock can lead to fighting and injury.[19] When a rooster finds food, he may call other
-                    chickens to eat first. He does this by clucking in a high pitch as well as picking up and dropping
-                    the food. This behavior may also be observed in mother hens to call their chicks and encourage them
-                    to eat.</p>
-            </section>
-        </div>
-
     </div>
-
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -97,7 +67,7 @@
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6Vr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </script>
 </body>
 
